@@ -50,15 +50,15 @@ func ShowAnimal(animal IAnimal){
 }
 
 func main() {
-	var animal IAnimal // 接口数据类型，父类指针
-
-	animal = &Cat{"Orange"}
-
-	animal.Sleep()
-
-	animal = &Dog{"Yellow"}
-
-	animal.Sleep()
+	//var animal IAnimal // 接口数据类型，父类指针
+	//
+	//animal = &Cat{"Orange"}
+	//
+	//animal.Sleep()
+	//
+	//animal = &Dog{"Yellow"}
+	//
+	//animal.Sleep()
 
 	cat := &Cat{"Orange"}
 	dog := &Dog{"Yellow"}

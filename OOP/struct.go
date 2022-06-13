@@ -22,6 +22,7 @@ func main() {
 	book1.name = "Golang"
 	book1.auth = "zhangsan"
 
+
 	fmt.Println("book1 = ", book1)
 	fmt.Printf("type of book1 %T\n", book1)
 

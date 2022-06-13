@@ -10,6 +10,10 @@ func main() {
 		fmt.Println("myMap1 是一个空map")
 	}
 
+	if len(myMap1) == 0 {
+		fmt.Println("myMap1 是一个空map")
+	}
+
 	// 在使用时 要先给map开辟数据空间
 	myMap1 = make(map[string]string, 10)
 

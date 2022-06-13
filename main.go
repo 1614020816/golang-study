@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	// 没有赋初始值 默认为0
@@ -35,8 +38,11 @@ func main() {
 		j bool = false
 	)
 
+	time.Sleep(1 * time.Second)
+
 	fmt.Println("i = ", i)
 	fmt.Printf("type of i = %T\n", i)
 	fmt.Println("j = ", j)
 	fmt.Printf("type of j = %T\n", j)
+
 }

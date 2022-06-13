@@ -48,6 +48,8 @@ func main() {
 	//	level: 88,
 	//}
 
+	fmt.Println("==========")
+
 	var superMe SuperMe
 
 	superMe.name = "lisi"

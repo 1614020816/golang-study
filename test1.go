@@ -14,6 +14,12 @@ func main() {
 		GUANGZHOU
 	)
 
+	const (
+		A = 10
+		B = 20
+		C = 30
+	)
+
 	fmt.Println("BEIJING = ", BEIJING)
 	fmt.Println("SHANGHAI = ", SHANGHAI)
 	fmt.Println("SHENZHEN = ", SHENZHEN)
